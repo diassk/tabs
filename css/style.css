@@ -1,0 +1,99 @@
+.img {
+    width: 300px;
+}
+
+input {
+    display: none;
+}
+
+#Naryn\ region:checked ~ .Issyk-Kul,
+#Naryn\ region:checked ~ .Jalal-Abad,
+#Naryn\ region:checked ~ .Osh,
+#Naryn\ region:checked ~ .Chuy,
+#Naryn\ region:checked ~ .Batken,
+#Naryn\ region:checked ~ .Talas,
+#Naryn\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Issyk-Kul\ region:checked ~ .Naryn,
+#Issyk-Kul\ region:checked ~ .Jalal-Abad,
+#Issyk-Kul\ region:checked ~ .Osh,
+#Issyk-Kul\ region:checked ~ .Chuy,
+#Issyk-Kul\ region:checked ~ .Batken,
+#Issyk-Kul\ region:checked ~ .Talas,
+#Issyk-Kul\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Jalal-Abad\ region:checked ~ .Naryn,
+#Jalal-Abad\ region:checked ~ .Issyk-Kul,
+#Jalal-Abad\ region:checked ~ .Osh,
+#Jalal-Abad\ region:checked ~ .Chuy,
+#Jalal-Abad\ region:checked ~ .Batken,
+#Jalal-Abad\ region:checked ~ .Talas,
+#Jalal-Abad\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Osh\ region:checked ~ .Naryn,
+#Osh\ region:checked ~ .Issyk-Kul,
+#Osh\ region:checked ~ .Jalal-Abad,
+#Osh\ region:checked ~ .Chuy,
+#Osh\ region:checked ~ .Batken,
+#Osh\ region:checked ~ .Talas,
+#Osh\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Chuy\ region:checked ~ .Naryn,
+#Chuy\ region:checked ~ .Issyk-Kul,
+#Chuy\ region:checked ~ .Jalal-Abad,
+#Chuy\ region:checked ~ .Osh,
+#Chuy\ region:checked ~ .Batken,
+#Chuy\ region:checked ~ .Talas,
+#Chuy\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Batken\ region:checked ~ .Naryn,
+#Batken\ region:checked ~ .Issyk-Kul,
+#Batken\ region:checked ~ .Jalal-Abad,
+#Batken\ region:checked ~ .Osh,
+#Batken\ region:checked ~ .Chuy,
+#Batken\ region:checked ~ .Talas,
+#Batken\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Talas\ region:checked ~ .Naryn,
+#Talas\ region:checked ~ .Issyk-Kul,
+#Talas\ region:checked ~ .Jalal-Abad,
+#Talas\ region:checked ~ .Osh,
+#Talas\ region:checked ~ .Chuy,
+#Talas\ region:checked ~ .Batken,
+#Talas\ region:checked ~ .Kyrgyzstan {
+    display: none;
+}
+
+#Kyrgyzstan:checked ~ .Naryn,
+#Kyrgyzstan:checked ~ .Issyk-Kul,
+#Kyrgyzstan:checked ~ .Jalal-Abad,
+#Kyrgyzstan:checked ~ .Osh,
+#Kyrgyzstan:checked ~ .Chuy,
+#Kyrgyzstan:checked ~ .Batken,
+#Kyrgyzstan:checked ~ .Talas {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
